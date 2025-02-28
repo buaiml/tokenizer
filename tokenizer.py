@@ -110,6 +110,7 @@ class MyTokenizer:
         Args:
             text (str): The text to encode.
         """
+        # TODO: Implement the encode method
         pass
 
     def _build_vocab(self) -> Dict[int, bytes]:
