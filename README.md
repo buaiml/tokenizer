@@ -21,7 +21,14 @@ the methods.
     ```
 3. Open `tokenizer.py`
 
-There aren't any libraries we need to install today, but for actual transformer training, you will
+You you will need to the regex package (python's built in `re` will not be good enough). You can install it with `pip`:
+```bash
+pip install regex
+# or
+pip3 install regex
+```
+
+There aren't any other libraries we need to install today, but for actual transformer training, you will
 probably want `torch` and maybe a prebuilt tokenizer like `huggingface/tokenizers`.
 
 
