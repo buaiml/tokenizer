@@ -1,6 +1,6 @@
 from typing import Dict, List, Optional, Pattern, Set, Tuple, Union
 
-import re
+import regex as re
 import unicodedata
 
 # These patterns are taken from:
@@ -103,7 +103,6 @@ class MyTokenizer:
         # TODO: Implement the decode method
         pass
 
-
     def encode(self, text: str) -> List[int]:
         """
         Encodes the given text into a list of ids.
@@ -111,7 +110,6 @@ class MyTokenizer:
         Args:
             text (str): The text to encode.
         """
-        # TODO: Implement the encode method
         pass
 
     def _build_vocab(self) -> Dict[int, bytes]:
